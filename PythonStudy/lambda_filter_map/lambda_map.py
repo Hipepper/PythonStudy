@@ -17,5 +17,12 @@ def lambda_map():
     my_map_print(result)
 
 
+def lambda_map_list():
+    map_list = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
+    result = map(lambda list: [list[1], list[0], list[2]], map_list)
+    my_map_print(result)
+
+
 if __name__ == "__main__":
     lambda_map()
+    lambda_map_list()
