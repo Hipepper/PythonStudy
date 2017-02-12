@@ -23,7 +23,7 @@ def add_text_to_file(filepath):
 def readline_file(filepath):
     file = open(filepath, "r")
     for line in file.readlines():
-        print(line, end="")
+        print(line)
     file.close()
 
 
