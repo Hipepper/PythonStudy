@@ -23,16 +23,10 @@ class storage(dict):
 
 s = storage()
 s.name = "hello"
-print
-s("name")
-print
-s["name"]
-print
-s.name
+print s("name")
+print s["name"]
+print s.name
 del s.name
-print
-s("name")
-print
-s["name"]
-print
-s.name
+print s("name")
+print s["name"]
+print s.name
