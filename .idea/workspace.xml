@@ -1,18 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f8f2acd6-517c-4dee-90db-505780a21c21" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonStudy/getopt_optparse/test_optparse.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonStudy/str/re.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonStudy/webapp/EasyCGIServer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonStudy/webapp/EasyWebServer.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/PythonStudy/webapp/cgi-bin/hello.cgi" />
+    <list default="true" id="f8f2acd6-517c-4dee-90db-505780a21c21" name="Default" comment="os,shutil study">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/foundation/with/with.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/OpenStackStudy.iml" afterPath="$PROJECT_DIR$/.idea/OpenStackStudy.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonStudy/__call__/test_call.py" afterPath="$PROJECT_DIR$/PythonStudy/__call__/test_call.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonStudy/__import__/test_class.py" afterPath="$PROJECT_DIR$/PythonStudy/__import__/test_class.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonStudy/cls_self_classmethod_staticmethod/cls_self_classmethod_staticmethod.py" afterPath="$PROJECT_DIR$/PythonStudy/cls_self_classmethod_staticmethod/cls_self_classmethod_staticmethod.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/PythonStudy/dir/dir.py" afterPath="$PROJECT_DIR$/PythonStudy/dir/dir.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/__call__/test_call.py" afterPath="$PROJECT_DIR$/foundation/__call__/test_call.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/__call__/test_call2.py" afterPath="$PROJECT_DIR$/foundation/__call__/test_call2.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/__import__/test_class.py" afterPath="$PROJECT_DIR$/foundation/__import__/test_class.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/__import__/test_getattr.py" afterPath="$PROJECT_DIR$/foundation/__import__/test_getattr.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/__import__/test_import.py" afterPath="$PROJECT_DIR$/foundation/__import__/test_import.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/__init__/class_init_func.py" afterPath="$PROJECT_DIR$/foundation/__init__/class_init_func.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/__name__/call_getmodulename.py" afterPath="$PROJECT_DIR$/foundation/__name__/call_getmodulename.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/__name__/getmodulename.py" afterPath="$PROJECT_DIR$/foundation/__name__/getmodulename.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/cls_self_classmethod_staticmethod/cls_self_classmethod_staticmethod.py" afterPath="$PROJECT_DIR$/foundation/cls_self_classmethod_staticmethod/cls_self_classmethod_staticmethod.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/ctypes/my_debugger.py" afterPath="$PROJECT_DIR$/foundation/ctypes/my_debugger.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/ctypes/my_debugger_defines.py" afterPath="$PROJECT_DIR$/foundation/ctypes/my_debugger_defines.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/ctypes/my_test.py" afterPath="$PROJECT_DIR$/foundation/ctypes/my_test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/ctypes/printf_linux.py" afterPath="$PROJECT_DIR$/foundation/ctypes/printf_linux.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/ctypes/printf_loop.py" afterPath="$PROJECT_DIR$/foundation/ctypes/printf_loop.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/ctypes/printf_win.py" afterPath="$PROJECT_DIR$/foundation/ctypes/printf_win.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/ctypes/pydbg_test.py" afterPath="$PROJECT_DIR$/foundation/ctypes/pydbg_test.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/dir/dir.py" afterPath="$PROJECT_DIR$/foundation/dir/dir.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/fileno/test_fileno.py" afterPath="$PROJECT_DIR$/foundation/fileno/test_fileno.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/getopt_optparse/getopt_simple.py" afterPath="$PROJECT_DIR$/foundation/getopt_optparse/getopt_simple.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/getopt_optparse/test_optparse.py" afterPath="$PROJECT_DIR$/foundation/getopt_optparse/test_optparse.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/getrefcount/getrefcount.py" afterPath="$PROJECT_DIR$/foundation/getrefcount/getrefcount.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/glob/test_glob.py" afterPath="$PROJECT_DIR$/foundation/glob/test_glob.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_filter.py" afterPath="$PROJECT_DIR$/foundation/lambda_filter_map/lambda_filter.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_map.py" afterPath="$PROJECT_DIR$/foundation/lambda_filter_map/lambda_map.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_chdir.py" afterPath="$PROJECT_DIR$/foundation/os/os_chdir.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_file.py" afterPath="$PROJECT_DIR$/foundation/os/os_file.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_listdir.py" afterPath="$PROJECT_DIR$/foundation/os/os_listdir.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_makedir_makedirs.py" afterPath="$PROJECT_DIR$/foundation/os/os_makedir_makedirs.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_path_abspath.py" afterPath="$PROJECT_DIR$/foundation/os/os_path_abspath.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_path_exists.py" afterPath="$PROJECT_DIR$/foundation/os/os_path_exists.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_path_isdir.py" afterPath="$PROJECT_DIR$/foundation/os/os_path_isdir.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_path_join.py" afterPath="$PROJECT_DIR$/foundation/os/os_path_join.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_path_split.py" afterPath="$PROJECT_DIR$/foundation/os/os_path_split.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_path_splitext.py" afterPath="$PROJECT_DIR$/foundation/os/os_path_splitext.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_rmdir_rmtree.py" afterPath="$PROJECT_DIR$/foundation/os/os_rmdir_rmtree.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/os/os_walk.py" afterPath="$PROJECT_DIR$/foundation/os/os_walk.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/re/lambda_filter_re.py" afterPath="$PROJECT_DIR$/foundation/re/lambda_filter_re.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/re/re_search.py" afterPath="$PROJECT_DIR$/foundation/re/re_search.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/shutil/shutil_move_copy.py" afterPath="$PROJECT_DIR$/foundation/shutil/shutil_move_copy.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/shutil/shutil_rotate_file.py" afterPath="$PROJECT_DIR$/foundation/shutil/shutil_rotate_file.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/str/re.py" afterPath="$PROJECT_DIR$/foundation/str/re.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/sys/sys_path.py" afterPath="$PROJECT_DIR$/foundation/sys/sys_path.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/test_call.py" afterPath="$PROJECT_DIR$/foundation/test_call.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/test_class.py" afterPath="$PROJECT_DIR$/foundation/test_class.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/test_cls.py" afterPath="$PROJECT_DIR$/foundation/test_cls.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/test_deprecation.py" afterPath="$PROJECT_DIR$/foundation/test_deprecation.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/test_py3.py" afterPath="$PROJECT_DIR$/foundation/test_py3.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/test_scapy.py" afterPath="$PROJECT_DIR$/foundation/test_scapy.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/test_socket.py" afterPath="$PROJECT_DIR$/foundation/test_socket.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/test_strsplit.py" afterPath="$PROJECT_DIR$/foundation/test_strsplit.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/testname.py" afterPath="$PROJECT_DIR$/foundation/testname.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/value/longvalue.py" afterPath="$PROJECT_DIR$/foundation/value/longvalue.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/webapp/EasyCGIServer.py" afterPath="$PROJECT_DIR$/foundation/webapp/EasyCGIServer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/webapp/EasyWebServer.py" afterPath="$PROJECT_DIR$/foundation/webapp/EasyWebServer.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/webapp/cgi-bin/hello.cgi" afterPath="$PROJECT_DIR$/foundation/webapp/cgi-bin/hello.cgi" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/PythonStudy/yield/yield.py" afterPath="$PROJECT_DIR$/foundation/yield/yield.py" />
     </list>
     <ignored path="OpenStackTest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,63 +74,51 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/OpenStackStudy$test_fileno.coverage" NAME="test_fileno Coverage Results" MODIFIED="1507020004891" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/fileno" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$test_glob.coverage" NAME="test_glob Coverage Results" MODIFIED="1487431888740" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/glob" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$getmodulename.coverage" NAME="getmodulename Coverage Results" MODIFIED="1507019615495" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/__name__" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$lambda_filter.coverage" NAME="lambda_filter Coverage Results" MODIFIED="1507023693776" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/lambda_filter_map" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$class_init_func.coverage" NAME="class_init_func Coverage Results" MODIFIED="1507019311773" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/__init__" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$getopt.coverage" NAME="getopt Coverage Results" MODIFIED="1486048216734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/getopt" />
-    <SUITE FILE_PATH="coverage/OpenStackTest$test_cls.coverage" NAME="test_cls Coverage Results" MODIFIED="1470044198274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$yield.coverage" NAME="yield Coverage Results" MODIFIED="1506341895590" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/yield" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$test_import.coverage" NAME="test_import Coverage Results" MODIFIED="1507019108105" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/__import__" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$os_path_split.coverage" NAME="os_path_split Coverage Results" MODIFIED="1507021097563" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$shutil_rotate_file.coverage" NAME="shutil_rotate_file Coverage Results" MODIFIED="1486034569659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/shutil" />
-    <SUITE FILE_PATH="coverage/OpenStackTest$test_deprecation.coverage" NAME="test_deprecation Coverage Results" MODIFIED="1469783524380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$getrefcount.coverage" NAME="getrefcount Coverage Results" MODIFIED="1507020102981" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/getrefcount" />
-    <SUITE FILE_PATH="coverage/OpenStackTest$client.coverage" NAME="client Coverage Results" MODIFIED="1469674693552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/messaging" />
-    <SUITE FILE_PATH="coverage/OpenStackTest$webserver2.coverage" NAME="webserver2 Coverage Results" MODIFIED="1469785823336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WSGI" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$getopt_simple.coverage" NAME="getopt_simple Coverage Results" MODIFIED="1487472718996" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/getopt_optparse" />
-    <SUITE FILE_PATH="coverage/OpenStackTest$wsgirefserver.coverage" NAME="wsgirefserver Coverage Results" MODIFIED="1470019000905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WSGI" />
-    <SUITE FILE_PATH="coverage/OpenStackTest$test_call.coverage" NAME="test_call Coverage Results" MODIFIED="1470046287526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$re_search.coverage" NAME="re_search Coverage Results" MODIFIED="1486019009298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/re" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$cls_self_classmethod_staticmethod.coverage" NAME="cls_self_classmethod_staticmethod Coverage Results" MODIFIED="1507019895858" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/cls_self_classmethod_staticmethod" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$test_call2.coverage" NAME="test_call2 Coverage Results" MODIFIED="1507018680171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/__call__" />
-    <SUITE FILE_PATH="coverage/OpenStackTest$test_greenlet.coverage" NAME="test_greenlet Coverage Results" MODIFIED="1470107690442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eventlet" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$lambda_filter_re.coverage" NAME="lambda_filter_re Coverage Results" MODIFIED="1506355126336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/re" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$os_listdir.coverage" NAME="os_listdir Coverage Results" MODIFIED="1487472728530" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$shutil_move_copy.coverage" NAME="shutil_move_copy Coverage Results" MODIFIED="1506353842074" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/shutil" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$os_path_isdir.coverage" NAME="os_path_isdir Coverage Results" MODIFIED="1486032667780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$dir.coverage" NAME="dir Coverage Results" MODIFIED="1507012472104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/dir" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$optparse.coverage" NAME="optparse Coverage Results" MODIFIED="1507022256528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/getopt_optparse" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$dir.coverage" NAME="dir Coverage Results" MODIFIED="1485845694764" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/dir" />
     <SUITE FILE_PATH="coverage/OpenStackTest$restserver.coverage" NAME="restserver Coverage Results" MODIFIED="1470130979548" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/osloservice" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$os_file.coverage" NAME="os_file Coverage Results" MODIFIED="1486048804203" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
     <SUITE FILE_PATH="coverage/OpenStackTest$webserver1.coverage" NAME="webserver1 Coverage Results" MODIFIED="1469781352619" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WSGI" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$test_class.coverage" NAME="test_class Coverage Results" MODIFIED="1501944751634" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/__import__" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$test_glob.coverage" NAME="test_glob Coverage Results" MODIFIED="1538926551743" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/glob" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$glob.coverage" NAME="glob Coverage Results" MODIFIED="1486046328003" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/glob" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$lambda_filter.coverage" NAME="lambda_filter Coverage Results" MODIFIED="1538921076938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/lambda_filter_map" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$shutil_move.coverage" NAME="shutil_move Coverage Results" MODIFIED="1486033179156" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/shutil" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$os_walk.coverage" NAME="os_walk Coverage Results" MODIFIED="1486018076540" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
     <SUITE FILE_PATH="coverage/OpenStackTest$testname.coverage" NAME="testname Coverage Results" MODIFIED="1469778844276" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenStackTest$Unittest_TestEndpoint_test.coverage" NAME="Unittest TestEndpoint.test Coverage Results" MODIFIED="1469672333209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/messaging" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$getopt.coverage" NAME="getopt Coverage Results" MODIFIED="1486048216734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/getopt" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$os_makedir_makedirs.coverage" NAME="os_makedir_makedirs Coverage Results" MODIFIED="1486034702350" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$getopt__1_.coverage" NAME="getopt (1) Coverage Results" MODIFIED="1486048395464" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/getopt_optparse" />
     <SUITE FILE_PATH="coverage/OpenStackTest$test_class.coverage" NAME="test_class Coverage Results" MODIFIED="1469772700228" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenStackTest$test_cls.coverage" NAME="test_cls Coverage Results" MODIFIED="1470044198274" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$os_rmdir_rmtree.coverage" NAME="os_rmdir_rmtree Coverage Results" MODIFIED="1486035010934" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$os_path_split.coverage" NAME="os_path_split Coverage Results" MODIFIED="1485865126254" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
     <SUITE FILE_PATH="coverage/OpenStackTest$api.coverage" NAME="api Coverage Results" MODIFIED="1470305112128" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/webdemo/webdemo/cmd" />
     <SUITE FILE_PATH="coverage/OpenStackTest$main.coverage" NAME="main Coverage Results" MODIFIED="1469601595014" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Cliff" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$test_optparse.coverage" NAME="test_optparse Coverage Results" MODIFIED="1507022834713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/getopt_optparse" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$shutil_rotate_file.coverage" NAME="shutil_rotate_file Coverage Results" MODIFIED="1486034569659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/shutil" />
+    <SUITE FILE_PATH="coverage/OpenStackTest$test_deprecation.coverage" NAME="test_deprecation Coverage Results" MODIFIED="1469783524380" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenStackTest$client.coverage" NAME="client Coverage Results" MODIFIED="1469674693552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/messaging" />
+    <SUITE FILE_PATH="coverage/OpenStackTest$webserver2.coverage" NAME="webserver2 Coverage Results" MODIFIED="1469785823336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WSGI" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$os_path_join.coverage" NAME="os_path_join Coverage Results" MODIFIED="1485863417942" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$test_call.coverage" NAME="test_call Coverage Results" MODIFIED="1507018648747" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/__call__" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$EasyCGIServer.coverage" NAME="EasyCGIServer Coverage Results" MODIFIED="1501944677591" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/webapp" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$test_call.coverage" NAME="test_call Coverage Results" MODIFIED="1486024838104" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/__call__" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$getopt_simple.coverage" NAME="getopt_simple Coverage Results" MODIFIED="1486049250196" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/getopt_optparse" />
+    <SUITE FILE_PATH="coverage/OpenStackTest$wsgirefserver.coverage" NAME="wsgirefserver Coverage Results" MODIFIED="1470019000905" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/WSGI" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$with.coverage" NAME="with Coverage Results" MODIFIED="1538925937268" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/with" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$os_path_exists.coverage" NAME="os_path_exists Coverage Results" MODIFIED="1485865531444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$EasyWebServer.coverage" NAME="EasyWebServer Coverage Results" MODIFIED="1487475444234" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/webapp" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$sys_path.coverage" NAME="sys_path Coverage Results" MODIFIED="1506353807028" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/sys" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$re.coverage" NAME="re Coverage Results" MODIFIED="1507022209691" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/str" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$lambda_map.coverage" NAME="lambda_map Coverage Results" MODIFIED="1507023250600" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/lambda_filter_map" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$longvalue.coverage" NAME="longvalue Coverage Results" MODIFIED="1506353676339" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/value" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$sys_path.coverage" NAME="sys_path Coverage Results" MODIFIED="1486018236766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/sys" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$lambda_map.coverage" NAME="lambda_map Coverage Results" MODIFIED="1538920998633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/lambda_filter_map" />
+    <SUITE FILE_PATH="coverage/OpenStackTest$test_call.coverage" NAME="test_call Coverage Results" MODIFIED="1470046287526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$cls_self_classmethod_staticmethod.coverage" NAME="cls_self_classmethod_staticmethod Coverage Results" MODIFIED="1538919922533" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/cls_self_classmethod_staticmethod" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$re_search.coverage" NAME="re_search Coverage Results" MODIFIED="1486019009298" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/re" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$longvalue.coverage" NAME="longvalue Coverage Results" MODIFIED="1486908228044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/value" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$test_call2.coverage" NAME="test_call2 Coverage Results" MODIFIED="1538927693292" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/__call__" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$os_path_splitext.coverage" NAME="os_path_splitext Coverage Results" MODIFIED="1485865296390" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$test_with.coverage" NAME="test_with Coverage Results" MODIFIED="1538925397594" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/with" />
+    <SUITE FILE_PATH="coverage/OpenStackTest$test_greenlet.coverage" NAME="test_greenlet Coverage Results" MODIFIED="1470107690442" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/eventlet" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$lambda_filter_re.coverage" NAME="lambda_filter_re Coverage Results" MODIFIED="1486046897735" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/re" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$os_listdir.coverage" NAME="os_listdir Coverage Results" MODIFIED="1502196618958" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
     <SUITE FILE_PATH="coverage/OpenStackTest$app.coverage" NAME="app Coverage Results" MODIFIED="1470123477642" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/osloconfig" />
     <SUITE FILE_PATH="coverage/OpenStackTest$test_socket.coverage" NAME="test_socket Coverage Results" MODIFIED="1469780020750" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/OpenStackStudy$test_getattr.coverage" NAME="test_getattr Coverage Results" MODIFIED="1507019137073" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/__import__" />
+    <SUITE FILE_PATH="coverage/OpenStackStudy$os_path_isdir.coverage" NAME="os_path_isdir Coverage Results" MODIFIED="1486032667780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
     <SUITE FILE_PATH="coverage/OpenStackStudy$os_path_abspath.coverage" NAME="os_path_abspath Coverage Results" MODIFIED="1485865300866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/PythonStudy/os" />
   </component>
   <component name="CreatePatchCommitExecutor">
@@ -101,103 +138,81 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="getrefcount.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/getrefcount/getrefcount.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="sys_path.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/sys/sys_path.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="38">
-              <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="os_path_exists.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_path_exists.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="test_glob.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/glob/test_glob.py">
+        <entry file="file://$PROJECT_DIR$/foundation/glob/test_glob.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="171">
-              <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+              <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="lambda_filter.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_filter.py">
+      <file leaf-file-name="test_call.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foundation/__call__/test_call.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+            <state relative-caret-position="19">
+              <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="25" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test_call2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/foundation/__call__/test_call2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="380">
+              <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="with.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foundation/with/with.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lambda_filter.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foundation/lambda_filter_map/lambda_filter.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="247">
+              <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="lambda_map.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_map.py">
+        <entry file="file://$PROJECT_DIR$/foundation/lambda_filter_map/lambda_map.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="532">
+            <state relative-caret-position="505">
               <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getopt_simple.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/getopt_optparse/getopt_simple.py">
+      <file leaf-file-name="test_call.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foundation/test_call.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <element signature="e#0#10#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_optparse.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/getopt_optparse/test_optparse.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="re.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/str/re.py">
+      <file leaf-file-name="cls_self_classmethod_staticmethod.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/foundation/cls_self_classmethod_staticmethod/cls_self_classmethod_staticmethod.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="os_path_split.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_path_split.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="43" />
+            <state relative-caret-position="798">
+              <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
               <folding />
             </state>
           </provider>
@@ -218,6 +233,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/stevedore/example/setup.py" />
+        <option value="$PROJECT_DIR$/stevedore/plugin1/setup.py" />
+        <option value="$PROJECT_DIR$/stevedore/test_driver_manager.py" />
+        <option value="$PROJECT_DIR$/stevedore/plugin2/example2/fields.py" />
+        <option value="$PROJECT_DIR$/stevedore/test_extention_manager.py" />
+        <option value="$PROJECT_DIR$/stevedore/plugin2/setup.py" />
         <option value="$PROJECT_DIR$/stevedore/test_hook_manager.py" />
         <option value="$PROJECT_DIR$/webdemo/README.rst" />
         <option value="$PROJECT_DIR$/webdemo/setup.cfg" />
@@ -234,9 +255,12 @@
         <option value="$PROJECT_DIR$/webdemo/webdemo/db/sqlalchemy/alembic.ini" />
         <option value="$PROJECT_DIR$/webdemo/webdemo/db/sqlalchemy/alembic/versions/55d8a773d0e3_create_user_table.py" />
         <option value="$PROJECT_DIR$/webdemo/webdemo/db/api.py" />
+        <option value="$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_filter.py" />
         <option value="$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_map.py" />
         <option value="$PROJECT_DIR$/PythonStudy/os/os_walk.py" />
         <option value="$PROJECT_DIR$/PythonStudy/re/re_search.py" />
+        <option value="$PROJECT_DIR$/PythonStudy/re/lambda_filter_re.py" />
+        <option value="$PROJECT_DIR$/PythonStudy/dir/dir.py" />
         <option value="$PROJECT_DIR$/PythonStudy/sys/sys_path.py" />
         <option value="$PROJECT_DIR$/PythonStudy/os/test.txt" />
         <option value="$PROJECT_DIR$/PythonStudy/os/os_path_join.py" />
@@ -245,6 +269,7 @@
         <option value="$PROJECT_DIR$/PythonStudy/os/os_path_abspath.py" />
         <option value="$PROJECT_DIR$/PythonStudy/os/os_path_exists.py" />
         <option value="$PROJECT_DIR$/PythonStudy/os/os_path_isdir.py" />
+        <option value="$PROJECT_DIR$/PythonStudy/__call__/test_call.py" />
         <option value="$PROJECT_DIR$/PythonStudy/os/os_listdir.py" />
         <option value="$PROJECT_DIR$/PythonStudy/shutil/shutil_move.py" />
         <option value="$PROJECT_DIR$/PythonStudy/shutil/shutil_rotate_file.py" />
@@ -256,19 +281,9 @@
         <option value="$PROJECT_DIR$/PythonStudy/glob/test_glob.py" />
         <option value="$PROJECT_DIR$/PythonStudy/getopt_optparse/getopt_simple.py" />
         <option value="$PROJECT_DIR$/PythonStudy/value/longvalue.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/webapp/EasyWebServer.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/webapp/cgi-bin/hello.cgi" />
-        <option value="$PROJECT_DIR$/PythonStudy/webapp/EasyCGIServer.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/__import__/test_class.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/re/lambda_filter_re.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/dir/dir.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/__call__/test_call.py" />
         <option value="$PROJECT_DIR$/PythonStudy/cls_self_classmethod_staticmethod/cls_self_classmethod_staticmethod.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/getrefcount/getrefcount.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/str/re.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/getopt_optparse/optparse.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/getopt_optparse/test_optparse.py" />
-        <option value="$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_filter.py" />
+        <option value="$PROJECT_DIR$/PythonStudy/with/with.py" />
+        <option value="$PROJECT_DIR$/PythonStudy/__call__/test_call2.py" />
       </list>
     </option>
   </component>
@@ -278,11 +293,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1370" />
-    <option name="height" value="744" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -319,7 +334,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -328,59 +342,30 @@
               <item name="OpenStackStudy" type="b2602c69:ProjectViewProjectNode" />
               <item name="OpenStackStudy" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="OpenStackStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenStackStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenStackStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenStackStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="getopt_optparse" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenStackStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenStackStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="lambda_filter_map" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenStackStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenStackStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="os" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="OpenStackStudy" type="b2602c69:ProjectViewProjectNode" />
-              <item name="OpenStackStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="PythonStudy" type="462c0819:PsiDirectoryNode" />
-              <item name="sys" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../MachineLearningStudy" />
-    <property name="js.eslint.eslintPackage" value="" />
+    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\value" />
+      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\glob" />
+      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\getopt" />
+      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\os" />
+      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\shutil" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\workspace\python-projects\OpenStackTest\stevedore\plugin1" />
       <recent name="E:\workspace\python-projects\OpenStackTest\stevedore\example" />
       <recent name="E:\workspace\python-projects\OpenStackTest\cliff\cliffdemo" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\webapp\cgi-bin" />
-      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\webapp" />
-      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\value" />
-      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\glob" />
-      <recent name="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\getopt" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -395,7 +380,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.lambda_filter">
+  <component name="RunManager" selected="Python.test_call2">
+    <configuration name="Unittests in with.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="OpenStackTest" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/foundation/with/with.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+    </configuration>
     <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -591,110 +591,92 @@
       <option name="USE_PATTERN" value="false" />
       <method />
     </configuration>
-    <configuration name="lambda_filter" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_call2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonStudy/lambda_filter_map" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonStudy/__call__" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenStackStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_filter.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonStudy/__call__/test_call2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="lambda_map" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_glob" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonStudy/lambda_filter_map" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonStudy/glob" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenStackStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_map.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonStudy/glob/test_glob.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="optparse" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test_with" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonStudy/getopt_optparse" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonStudy/with" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenStackStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="E:\workspace\python-workspace\OpenStackStudy\PythonStudy\getopt_optparse\test_optparse.py" />
+      <option name="SCRIPT_NAME" value="E:\workspace\PyCharm-workspace\OpenStackStudy\PythonStudy\with\with.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="re" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="with" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonStudy/str" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonStudy/with" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="OpenStackStudy" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonStudy/str/re.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="test_optparse" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/PythonStudy/getopt_optparse" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="OpenStackStudy" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonStudy/getopt_optparse/test_optparse.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonStudy/with/with.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.optparse" />
-      <item index="1" class="java.lang.String" itemvalue="Python.re" />
-      <item index="2" class="java.lang.String" itemvalue="Python.test_optparse" />
-      <item index="3" class="java.lang.String" itemvalue="Python.lambda_filter" />
-      <item index="4" class="java.lang.String" itemvalue="Python.lambda_map" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.Unittests in with.py" />
+      <item index="1" class="java.lang.String" itemvalue="Python.test_with" />
+      <item index="2" class="java.lang.String" itemvalue="Python.with" />
+      <item index="3" class="java.lang.String" itemvalue="Python.test_glob" />
+      <item index="4" class="java.lang.String" itemvalue="Python.test_call2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.lambda_filter" />
-        <item index="1" class="java.lang.String" itemvalue="Python.lambda_map" />
-        <item index="2" class="java.lang.String" itemvalue="Python.test_optparse" />
-        <item index="3" class="java.lang.String" itemvalue="Python.optparse" />
-        <item index="4" class="java.lang.String" itemvalue="Python.re" />
+        <item index="0" class="java.lang.String" itemvalue="Python.test_call2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.test_glob" />
+        <item index="2" class="java.lang.String" itemvalue="Python.with" />
+        <item index="3" class="java.lang.String" itemvalue="Python.test_with" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.Unittests in with.py" />
       </list>
     </recent_temporary>
   </component>
@@ -761,12 +743,12 @@
       <option name="project" value="LOCAL" />
       <updated>1486905823204</updated>
     </task>
-    <task id="LOCAL-00008" summary="study">
-      <created>1486918421662</created>
+    <task id="LOCAL-00008" summary="cls update">
+      <created>1538922447133</created>
       <option name="number" value="00008" />
       <option name="presentableId" value="LOCAL-00008" />
       <option name="project" value="LOCAL" />
-      <updated>1486918421662</updated>
+      <updated>1538922447133</updated>
     </task>
     <option name="localTasksCounter" value="9" />
     <servers />
@@ -786,17 +768,18 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23279649" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3297062" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2864494" sideWeight="0.5060514" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32861805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38084874" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.28618065" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.15778251" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32698414" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3293011" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3825397" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2864494" sideWeight="0.49394855" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39919356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -805,7 +788,6 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32933104" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -830,9 +812,8 @@
     <MESSAGE value="os study" />
     <MESSAGE value="os,shutil study" />
     <MESSAGE value="getopt" />
-    <MESSAGE value="study" />
-    <MESSAGE value="commit some latest modification" />
-    <option name="LAST_COMMIT_MESSAGE" value="commit some latest modification" />
+    <MESSAGE value="cls update" />
+    <option name="LAST_COMMIT_MESSAGE" value="cls update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -865,7 +846,7 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="python-line">
-          <url>file://$PROJECT_DIR$/PythonStudy/value/longvalue.py</url>
+          <url>file://$PROJECT_DIR$/foundation/value/longvalue.py</url>
           <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
@@ -874,6 +855,19 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/webdemo/ChangeLog" />
+    <entry file="file://$PROJECT_DIR$/test_call.py" />
+    <entry file="file://$PROJECT_DIR$/testcookiecutter/setup.py" />
+    <entry file="file://$PROJECT_DIR$/testcookiecutter/setup.cfg" />
+    <entry file="file://$PROJECT_DIR$/testcookiecutter/doc/source/conf.py" />
+    <entry file="file://$PROJECT_DIR$/testcookiecutter/requirements.txt" />
+    <entry file="file://$PROJECT_DIR$/cliff/setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="17" lean-forward="false" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/osloconfig/app.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -914,134 +908,107 @@
     </entry>
     <entry file="file://$USER_HOME$/.PyCharm2016.2/system/python_stubs/-1184660488/nt.py" />
     <entry file="file://$PROJECT_DIR$/PythonStudy/os/test.txt" />
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_path_join.py">
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_walk.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_path_join.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="8" column="15" lean-forward="false" selection-start-line="8" selection-start-column="15" selection-end-line="8" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_path_splitext.py">
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_path_split.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="46" lean-forward="false" selection-start-line="12" selection-start-column="46" selection-end-line="12" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_path_splitext.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_path_abspath.py">
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_path_abspath.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="152">
           <caret line="8" column="42" lean-forward="false" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_path_isdir.py">
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_path_exists.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="33" lean-forward="false" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/re/re_search.py">
+    <entry file="file://$PROJECT_DIR$/foundation/sys/sys_path.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/dir/dir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="57">
+          <caret line="3" column="16" lean-forward="false" selection-start-line="3" selection-start-column="16" selection-end-line="3" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/shutil/shutil_move_copy.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/re/re_search.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="190">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/shutil/shutil_rotate_file.py">
+    <entry file="file://$PROJECT_DIR$/foundation/shutil/shutil_rotate_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="551">
           <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python36/Lib/glob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="4" lean-forward="false" selection-start-line="8" selection-start-column="4" selection-end-line="8" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://C:/Python36/Lib/glob.py" />
     <entry file="file://$PROJECT_DIR$/PythonStudy/glob/glob.py" />
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_makedir_makedirs.py">
+    <entry file="file://$PROJECT_DIR$/foundation/re/lambda_filter_re.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="5" column="29" lean-forward="false" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
+        <state relative-caret-position="228">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_rmdir_rmtree.py">
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_rmdir_rmtree.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="133">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_file.py">
+    <entry file="file://$PROJECT_DIR$/foundation/getopt_optparse/getopt_simple.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="37" column="29" lean-forward="false" selection-start-line="37" selection-start-column="29" selection-end-line="37" selection-end-column="29" />
+        <state relative-caret-position="266">
+          <caret line="14" column="45" lean-forward="false" selection-start-line="14" selection-start-column="45" selection-end-line="14" selection-end-column="45" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_listdir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="21" lean-forward="false" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36/Lib/http/server.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="129" column="6" lean-forward="false" selection-start-line="129" selection-start-column="6" selection-end-line="129" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://C:/Python36/Lib/socketserver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="118">
-          <caret line="218" column="8" lean-forward="false" selection-start-line="218" selection-start-column="8" selection-end-line="218" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/webapp/cgi-bin/hello.cgi">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="20" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/webapp/EasyWebServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/webapp/EasyCGIServer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="9" lean-forward="true" selection-start-line="12" selection-start-column="9" selection-end-line="12" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/yield/yield.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="0" lean-forward="true" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_walk.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/value/longvalue.py">
+    <entry file="file://$PROJECT_DIR$/foundation/value/longvalue.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
@@ -1049,186 +1016,150 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/shutil/shutil_move_copy.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="17" column="28" lean-forward="false" selection-start-line="17" selection-start-column="28" selection-end-line="17" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/re/lambda_filter_re.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="15" column="75" lean-forward="false" selection-start-line="15" selection-start-column="75" selection-end-line="15" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/dir/dir.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" column="0" lean-forward="true" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/__call__/test_call.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="31" column="6" lean-forward="false" selection-start-line="31" selection-start-column="6" selection-end-line="31" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/__init__/class_init_func.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="11" lean-forward="true" selection-start-line="7" selection-start-column="11" selection-end-line="7" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/__import__/test_import.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="true" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/__import__/test_getattr.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="0" lean-forward="true" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/__import__/test_class.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="4" column="9" lean-forward="true" selection-start-line="4" selection-start-column="9" selection-end-line="4" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/__call__/test_call2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-174">
-          <caret line="6" column="23" lean-forward="false" selection-start-line="6" selection-start-column="23" selection-end-line="6" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/__name__/call_getmodulename.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/__name__/getmodulename.py">
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_makedir_makedirs.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="5" column="14" lean-forward="false" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
+          <caret line="5" column="29" lean-forward="true" selection-start-line="5" selection-start-column="29" selection-end-line="5" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/cls_self_classmethod_staticmethod/cls_self_classmethod_staticmethod.py">
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_file.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="27" column="10" lean-forward="false" selection-start-line="27" selection-start-column="10" selection-end-line="27" selection-end-column="10" />
-          <folding />
+        <state relative-caret-position="342">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/fileno/test_fileno.py">
+    <entry file="file://D:/Python36/Lib/os.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_path_isdir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/os/os_listdir.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="15" column="18" lean-forward="false" selection-start-line="15" selection-start-column="18" selection-end-line="15" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/test_class.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/getopt_optparse/getopt_simple.py">
+    <entry file="file://$PROJECT_DIR$/foundation/test_deprecation.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#10#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_path_split.py">
+    <entry file="file://$PROJECT_DIR$/foundation/test_socket.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="43" lean-forward="false" selection-start-line="12" selection-start-column="32" selection-end-line="12" selection-end-column="43" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/test_cls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="0" lean-forward="false" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/__import__/test_import.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/__import__/test_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/__import__/test_getattr.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/cls_self_classmethod_staticmethod/cls_self_classmethod_staticmethod.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="798">
+          <caret line="42" column="12" lean-forward="false" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/str/re.py">
+    <entry file="file://$PROJECT_DIR$/foundation/test_call.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Python27/Lib/optparse.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-5836">
-          <caret line="1367" column="8" lean-forward="false" selection-start-line="1367" selection-start-column="8" selection-end-line="1367" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/getopt_optparse/test_optparse.py">
+    <entry file="file://$PROJECT_DIR$/foundation/with/with.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="304">
-          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/getrefcount/getrefcount.py">
+    <entry file="file://$PROJECT_DIR$/foundation/lambda_filter_map/lambda_filter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="11" lean-forward="false" selection-start-line="2" selection-start-column="11" selection-end-line="2" selection-end-column="11" />
+        <state relative-caret-position="247">
+          <caret line="13" column="20" lean-forward="false" selection-start-line="13" selection-start-column="20" selection-end-line="13" selection-end-column="20" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/sys/sys_path.py">
+    <entry file="file://$PROJECT_DIR$/foundation/lambda_filter_map/lambda_map.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/os/os_path_exists.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/glob/test_glob.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_map.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
+        <state relative-caret-position="505">
           <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PythonStudy/lambda_filter_map/lambda_filter.py">
+    <entry file="file://$PROJECT_DIR$/foundation/glob/test_glob.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        <state relative-caret-position="171">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/__call__/test_call.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="7" column="14" lean-forward="true" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/foundation/__call__/test_call2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" column="23" lean-forward="true" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding />
         </state>
       </provider>
