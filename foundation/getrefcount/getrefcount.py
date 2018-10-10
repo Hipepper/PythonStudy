@@ -1,7 +1,7 @@
 import sys
 
 testabc = 1
-print sys.getrefcount(testabc)
+print(sys.getrefcount(testabc))
 
 
 class A:
@@ -10,4 +10,4 @@ class A:
 
 if __name__ == '__main__':
     a = A()
-    print sys.getrefcount(a)
+    print(sys.getrefcount(a))
