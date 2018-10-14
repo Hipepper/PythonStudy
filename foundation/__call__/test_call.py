@@ -5,28 +5,28 @@ class storage(dict):
     def __getattr__(self, key):
         try:
             return self[key]
-        except KeyError, k:
+        except:
             return None
 
     def __delattr__(self, key):
         try:
             del self[key]
-        except KeyError, k:
+        except:
             return None
 
     def __call__(self, key):
         try:
             return self[key]
-        except KeyError, k:
+        except:
             return None
 
 
 s = storage()
 s.name = "hello"
-print s("name")
-print s["name"]
-print s.name
+print(s("name"))
+print(s["name"])
+print(s.name)
 del s.name
-print s("name")
-print s["name"]
-print s.name
+print(s("name"))
+# print(s["name"])
+print(s.name)

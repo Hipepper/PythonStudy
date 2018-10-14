@@ -6,18 +6,18 @@ class A:
 
     @classmethod
     def Print1(cls):
-        print "print 1: ", cls.member
+        print("print 1: " + cls.member)
 
     def Print2(self):
-        print "print 2: ", self.member
+        print("print 2: " + self.member)
 
     @classmethod
     def Print3(paraTest):
-        print "print 3: ", paraTest.member
+        print("print 3: " + paraTest.member)
 
     @staticmethod
     def print4():
-        print "hello"
+        print("hello")
 
 
 a = A()

@@ -5,7 +5,6 @@ import sys
 
 
 class WSGIServer(object):
-
     address_family = socket.AF_INET
     socket_type = socket.SOCK_STREAM
     request_queue_size = 1
@@ -54,7 +53,7 @@ class WSGIServer(object):
         # Construct environment dictionary using request data
         env = self.get_environ()
 
-        print env
+        print(env)
 
         # It's time to call our application callable and get
         # back a result that will become HTTP response body
@@ -68,7 +67,7 @@ class WSGIServer(object):
         request_line = request_line.rstrip('\r\n')
         # Break down the request line into components
         (self.request_method,  # GET
-         self.path,            # /hello
+         self.path,  # /hello
          self.request_version  # HTTP/1.1
          ) = request_line.split()
 
@@ -79,18 +78,18 @@ class WSGIServer(object):
         # to emphasize the required variables and their values
         #
         # Required WSGI variables
-        env['wsgi.version']      = (1, 0)
-        env['wsgi.url_scheme']   = 'http'
-        env['wsgi.input']        = StringIO.StringIO(self.request_data)
-        env['wsgi.errors']       = sys.stderr
-        env['wsgi.multithread']  = False
+        env['wsgi.version'] = (1, 0)
+        env['wsgi.url_scheme'] = 'http'
+        env['wsgi.input'] = StringIO.StringIO(self.request_data)
+        env['wsgi.errors'] = sys.stderr
+        env['wsgi.multithread'] = False
         env['wsgi.multiprocess'] = False
-        env['wsgi.run_once']     = False
+        env['wsgi.run_once'] = False
         # Required CGI variables
-        env['REQUEST_METHOD']    = self.request_method    # GET
-        env['PATH_INFO']         = self.path              # /hello
-        env['SERVER_NAME']       = self.server_name       # localhost
-        env['SERVER_PORT']       = str(self.server_port)  # 8888
+        env['REQUEST_METHOD'] = self.request_method  # GET
+        env['PATH_INFO'] = self.path  # /hello
+        env['SERVER_NAME'] = self.server_name  # localhost
+        env['SERVER_PORT'] = str(self.server_port)  # 8888
         return env
 
     def start_response(self, status, response_headers, exc_info=None):

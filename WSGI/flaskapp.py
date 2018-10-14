@@ -11,3 +11,6 @@ def hello_world():
     )
 
 app = flask_app.wsgi_app
+
+if __name__ == '__main__':
+    flask_app.run()
