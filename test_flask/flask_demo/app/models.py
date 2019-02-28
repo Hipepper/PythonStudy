@@ -1,4 +1,5 @@
-from test_flask.flask_demo.app import db
+from app import db
+from datetime import datetime
 
 
 class User(db.Model):
@@ -7,13 +8,18 @@ class User(db.Model):
     username = db.Column(db.String(64), index=True, unique=True)
     email = db.Column(db.String(120), index=True, unique=True)
     password_hash = db.Column(db.String(128))
+    posts = db.relationship('Post', backref='author', lazy='dynamic')
 
     def __repr__(self):
         return '<用户名:{}>'.format(self.username)
 
 
-if __name__=='__main__':
-    u = User(username='glj', email='glj@163.com')
-    print(u)
-    import sys
-    print()
+class Post(db.Model):
+    __tablename__ = 'post'
+    id = db.Column(db.Integer, primary_key=True)
+    body = db.Column(db.String(140))
+    timestamp = db.Column(db.DateTime, index=True, default=datetime.utcnow)
+    user_id = db.Column(db.Integer, db.ForeignKey('user.id'))
+
+    def __repr__(self):
+        return '<Post {}>'.format(self.body)
