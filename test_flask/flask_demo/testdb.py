@@ -75,3 +75,7 @@ if __name__ == '__main__':
     # test_add_post(body='我第一次提交数据！',author=u)
     # test_add_post(body='我第二次提交数据！',author=u)
     test_query_post()
+
+    u.set_password("mytest")
+    print(u.check_password("yourtest"))
+    print(u.check_password("mytest"))
