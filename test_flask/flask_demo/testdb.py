@@ -77,5 +77,6 @@ if __name__ == '__main__':
     test_query_post()
 
     u.set_password("mytest")
+    db.session.commit()
     print(u.check_password("yourtest"))
     print(u.check_password("mytest"))
