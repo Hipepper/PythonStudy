@@ -80,3 +80,6 @@ if __name__ == '__main__':
     db.session.commit()
     print(u.check_password("yourtest"))
     print(u.check_password("mytest"))
+    import os
+    print(os.path.dirname(os.path.abspath(__file__)))
+    print( os.path.dirname(os.path.dirname(os.path.abspath(__file__))))

@@ -41,6 +41,6 @@ if __name__ == '__main__':
     results = mgr.map(format_data, data)
 
     for name, result in results:
-        print 'Formatter: %s' % name
+        print('Formatter: %s' % name)
         for chunk in result:
-            print chunk
+            print(chunk)
