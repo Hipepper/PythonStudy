@@ -1,7 +1,13 @@
 from setuptools import setup
 
 setup(
-    name='TestFirstApp',  # 应用名
-    version='0.0.1',  # 版本号
-    packages=['myapp'],  # 包括在安装包内的 Python 包
+    name='TestFirstApp',
+    version='0.0.1',
+    packages=['myapp'],
+    entry_points={
+        "console_scripts":[
+            "foobard = myapp.server:main",
+            "foobar = myapp.client:main"
+        ]
+    }
 )
