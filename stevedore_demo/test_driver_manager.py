@@ -1,7 +1,4 @@
-from __future__ import print_function
-
 import argparse
-
 from stevedore import driver
 
 if __name__ == '__main__':
@@ -18,6 +15,8 @@ if __name__ == '__main__':
         type=int,
         help='maximum output width for text',
     )
+    # argv = ["-h"]
+    # argv = ["-h", "1.2.3.4", "-t", "extra"]
     parsed_args = parser.parse_args()
 
     data = {

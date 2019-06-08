@@ -1,6 +1,6 @@
 # coding: utf-8
 
-import pluginbase
+from example import pluginbase
 
 
 class Simple(pluginbase.FormatterBase):

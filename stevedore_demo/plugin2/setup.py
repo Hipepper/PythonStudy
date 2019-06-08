@@ -8,8 +8,7 @@ setup(
 
     entry_points={
         'stevedoretest.formatter': [
-            'fields = example2.fields:FieldList',
-            'simple= example2.fields:FieldList'
+            'fields = example2.fields:FieldList'
         ],
     },
 )
