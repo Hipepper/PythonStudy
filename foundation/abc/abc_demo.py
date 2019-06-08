@@ -1,22 +1,4 @@
-import abc
-import six
 
-
-@six.add_metaclass(abc.ABCMeta)
-class PluginBase(object):
-    @abc.abstractmethod
-    def func_a(self, data):
-        """
-        an abstract method need to be implemented
-
-        """
-
-    @abc.abstractmethod
-    def func_b(self, output, data):
-        """
-        another abstract method need to be implemented
-
-        """
 
 
 class RegisteredImplementation(object):

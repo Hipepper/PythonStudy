@@ -1,23 +1,23 @@
+import sys
 from optparse import OptionParser
 
-parser = OptionParser(
-    "install.py [--sip x.x.x.x] [--pip x.x.x.x] [--help]")
-parser.add_option("-s", "--sip",
+parser = OptionParser("install.py [--ip x.x.x.x] [--silent] [--help]")
+parser.add_option("-s", "--ip",
                   action="store",
                   type="string",
-                  dest="sip",
+                  dest="ip",
                   help="server ip"
                   )
-parser.add_option("-p", "--pip",
-                  action="store",
-                  type="string",
-                  dest="pip",
-                  help="peer ip"
+parser.add_option("-t", "--silent",
+                  action="store_true",
+                  dest="silent",
+                  help="silent"
                   )
 
-argv = ["-s", "1.2.3.4", "-p", "4.3.2.1"]
+# (option, args) = parser.parse_args(sys.argv)
+argv = ["-s", "1.2.3.4", "-t", "extra"]
 (option, args) = parser.parse_args(argv)
 
-print option.sip
-print option.pip
-print args
+print(option.ip)
+print(option.silent)
+print(args)
